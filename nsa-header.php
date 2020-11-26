@@ -1,6 +1,6 @@
 <?php
 /**
-Plugin Name: NSA Header
+Plugin Name: Add NSA Header
 Version: 2.71
 Description: Adds an NSA-Keywords HTTP header to reduce the effectiveness of mass spying operations.
 Author: Max Harmony
