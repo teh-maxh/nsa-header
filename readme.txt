@@ -1,9 +1,11 @@
 == NSA Header ==
 Contributors: maxh
+Author URI: https://www.maxh.me.uk/
+Plugin URI: https://www.maxh.me.uk/projects/nsa-header
 Donate Link: https://www.maxh.me.uk/donate/
 Tags: http header
 Requires at least: 1.2
-Tested up to: 5.2.1
+Tested up to: 5.5.3
 Stable tag: trunk
 Requires PHP: 4.0
 License: DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2
@@ -22,5 +24,5 @@ It is recommended that this be used only on WordPress sites that are only
 accessible via TLS.
 
 == Installation ==
-1. Upload the plugin files to `/wp-content/plugins/nsa-header`.
+1. Upload the plugin files to `wp-content/plugins/nsa-header`.
 2. Activate the plugin through the WordPress 'Plugins' page.
