@@ -1,4 +1,4 @@
-== NSA Header ==
+== Add NSA Header ==
 Contributors: maxh
 Author URI: https://www.maxh.me.uk/
 Plugin URI: https://www.maxh.me.uk/projects/nsa-header
@@ -11,11 +11,11 @@ Requires PHP: 4.0
 License: DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2
 License URI: http://www.wtfpl.net/txt/copying/
 
-NSA Header adds an NSA-Keywords HTTP header to reduce the effectiveness of mass
-spying operations.
+Add NSA Header adds an NSA-Keywords HTTP header to reduce the effectiveness of
+mass spying operations.
 
 == Description ==
-NSA Header uses a list of keywords known to be sensitive to mass spying
+Add NSA Header uses a list of keywords known to be sensitive to mass spying
 operations. It randomly selects a few of those keywords with each page request
 and includes them in an NSA-Keywords HTTP header. This introduces useless
 information to mass spying operations, reducing their effectiveness.
