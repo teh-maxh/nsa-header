@@ -21,6 +21,6 @@ information to mass spying operations, reducing their effectiveness.
 It is recommended that this be used only on WordPress sites that are only
 accessible via TLS.
 
-==Installation==
+== Installation ==
 1. Upload the plugin files to `/wp-content/plugins/nsa-header`.
 2. Activate the plugin through the WordPress 'Plugins' page.
