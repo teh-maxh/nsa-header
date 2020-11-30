@@ -1,7 +1,7 @@
 <?php
 /**
 Plugin Name: Add NSA Header
-Version: 2.718
+Version: 2.718.5.6
 Description: Adds an NSA-Keywords HTTP header to reduce the effectiveness of mass spying operations.
 Author: Max Harmony
 Author URI: https://www.maxh.me.uk/
