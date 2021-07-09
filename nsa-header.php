@@ -1,7 +1,7 @@
 <?php
 /**
 Plugin Name: Add NSA Header
-Version: 2.718.5.8
+Version: 2.7182
 Description: Adds an NSA-Keywords HTTP header to reduce the effectiveness of mass spying operations.
 Author: Max Harmony
 Author URI: https://www.maxh.me.uk/
@@ -10,13 +10,16 @@ License URI: http://www.wtfpl.net/txt/copying/
 */
 
 function build_nsa_header($nKeywords = 9){
-	$keywords_source = ["2600", "amtrak", "biological", "border", "breach",
-	"chemical", "closure", "command", "consulate", "critical infrastructure",
-	"detection", "disaster", "dndo", "drill", "emergency", "epidemic",
-	"evacuation", "exercise", "facility", "g7", "injection", "interstate",
-	"landing", "maritime domain", "national operations ctr", "nbic", "nuclear",
-	"ops", "plot", "radiological", "recovery", "response", "riot", "security",
-	"target"];
+	$keywords_source = ["2600", "641a", "amtrak", "biological", "border",
+		"breach", "bullrun", "chemical", "closure", "command", "consulate",
+		"conus", "critical infrastructure", "cryptanalysis", "detection",
+		"disaster", "dndo", "drill", "echelon", "emergency", "epidemic",
+		"evacuation", "exercise", "facility", "five eyes", "fornsat", "g7",
+		"government", "injection", "interstate", "keyhole", "landing",
+		"maritime domain", "mystic", "national operations ctr", "nbic",
+		"nuclear", "ops", "plot", "prism", "radiological", "rapid reaction",
+		"recovery", "response", "riot", "schengen", "security", "swift",
+		"target", "xkeyscore"];
 	$keywords = array_rand($keywords_source, $nKeywords);
 	foreach($keywords as &$i){
 		$i = $keywords_source[$i];
