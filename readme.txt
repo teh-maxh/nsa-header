@@ -1,11 +1,11 @@
 == Add NSA Header ==
 Contributors: tehmaxh
-Author URI: https://www.maxh.me.uk/
-Plugin URI: https://www.maxh.me.uk/projects/nsa-header
-Donate Link: https://www.maxh.me.uk/donate
+Author URI: https://www.maxh.name/
+Plugin URI: https://www.maxh.name/projects/nsa-header
+Donate Link: https://www.maxh.name/donate
 Tags: http header
 Requires at least: 1.2
-Tested up to: 5.9
+Tested up to: 6.0
 Stable tag: trunk
 Requires PHP: 4.0
 License: DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2
